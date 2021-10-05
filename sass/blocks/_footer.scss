@@ -1,0 +1,33 @@
+footer{
+  width: 100%;
+  height: 400px;
+  .footer__itm{
+    width: 100%;
+    height: 120px;
+    border: solid 2px;
+    background-color: #2C343E;
+    border-radius: 3px;
+    nav {
+      display: flex;
+      padding: 21px 0;
+      align-items: center;
+      justify-content: space-around;
+
+      .menu {
+        list-style: none;
+        display: flex;
+        li {
+          margin-left: 17px;
+          a {
+            text-decoration: none;
+            color:#83888F;
+            text-transform: uppercase;
+            font-family: 'Barlow',sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+          }
+         }
+        }
+      }
+  }
+}

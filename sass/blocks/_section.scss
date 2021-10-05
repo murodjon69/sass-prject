@@ -1,0 +1,29 @@
+section{
+  width: 100%;
+  .section__itm{
+    width: 100%;
+    height: 482px;
+    padding-top: 0 px;
+    background-color: #2C343E;
+    display: flex;
+    .section__itm__left{
+      padding-left: 85px;
+      width: 620px;
+      margin: 150px 0;
+      .section__itm__left--heading{
+        padding: 32px 0;
+        font-family: 'Fraunces',serif;
+        font-weight: 900px;
+        font-size: 40px;
+        color: white;
+      }
+      .section__itm__left-title{
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color:  #FEFCF7;
+      }
+      
+    }
+  }
+}
